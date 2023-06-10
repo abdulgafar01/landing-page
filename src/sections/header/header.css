@@ -1,0 +1,45 @@
+header{
+    margin-top: 7rem;
+    height: calc(100vh - 7rem);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     filter: opacity(0.7); 
+}
+
+.header__container{
+   position: absolute;
+   top: 1rem;
+   left: 1.8rem;
+   width: 50%;
+}
+
+.header__container >h2{
+    font-size: 3rem;
+    color: rgb(41, 25, 252);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: -4px;
+    text-transform: uppercase;
+    width: 50rem;
+    margin-bottom: 3rem;
+}
+
+.header__container >p{
+   font-size: 1.6rem;
+   font-weight: 500;
+}
+/* button{
+    position: absolute;
+    top: 30rem;
+} */
+
+@media screen  and (max-width:1220px){
+    .header__container >h2{
+        font-size: 3rem;
+        width: fit-content;
+        }
+}
+

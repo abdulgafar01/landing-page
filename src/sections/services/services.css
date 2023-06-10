@@ -1,0 +1,48 @@
+.services__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ h2{
+    font-size: 3rem;
+    margin: 1rem -1.8rem 0;
+}
+
+.serivices__card{
+    margin-top: 5rem;
+        --auto-grid-min-size: 25rem;  
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+        grid-gap: 1rem;
+}
+
+.card{
+    padding: 4rem;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+.serivices__card-icon{
+   width: 3rem;
+   position: absolute;
+   top: 4px;
+   left: 0;
+}
+.serivices__card-title{
+   font-size: 2rem;
+   position: absolute;
+   top: 4px;
+   left: 4rem;
+}
+
+.serivices__card-content{
+    font-size: 1.5rem;
+}
+
+.card:hover{
+    background-color: blue;
+    transition: all;
+}

@@ -1,0 +1,36 @@
+nav{
+    width: 100vw;
+    height: 7rem;
+    display: grid;
+    place-items: center;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem hsla(blue, 65%, 42%, 20%);
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    width: 20rem;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 4rem;
+}
+
+/* hide menu for phones screen and tablet */
+
+@media screen  and (max-width:1220px){
+    .nav__menu{
+        display: none;
+        }
+}
+

@@ -1,0 +1,24 @@
+footer{
+    background-color: #02011d;
+    width: 100%;
+    height: calc(50vh);
+    color: #fffefe;
+}
+
+footer .widget{
+    padding: 3rem;
+    --auto-grid-min-size: 30rem;  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+}
+
+.widget1__logo{
+    width: 20rem;
+}
+
+.footer__copyright{
+    text-align: center;
+    border-top: 2px solid rgb(48, 48, 129);
+    padding: 2rem;
+}
